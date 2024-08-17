@@ -1,15 +1,13 @@
 import React from 'react'
 import './App.css'
+import LoginSignUp from './Components/LoginSignUp/LoginSignUp';
 
-function Nav() {
+function App() {
   return (
-    <div class="topnav">
-      <a class="active" href="#home">Home</a>
-      <a href="#news">News</a>
-      <a href="#contact">Contact</a>
-      <a href="#about">About</a>
+    <div>
+      <LoginSignUp/>
     </div>
   )
 }
 
-export default Nav
+export default App;
